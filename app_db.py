@@ -50,3 +50,10 @@ def delete_students(name):
     db.session.add_all(remaining_students)
     db.session.commit()
     return render_template('index.html', students=remaining_students)
+
+#Add a student(name,age,gender)
+# create an instance of student with the details
+# add a new student to the database
+# commit to the database
+# render the student to the html page
+# add button to page for this functionality
